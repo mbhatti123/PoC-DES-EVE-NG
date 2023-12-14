@@ -23,8 +23,8 @@ This repo contains step-by-step instructions on how to deploy Dell Enterprise SO
 ## 🚀 Description and Objective
 Welcome to the Dell Enterprise SONiC on EVE-NG project! This repository provides comprehensive instructions, configurations, and resources to seamlessly deploy Dell Enterprise SONiC (Software for Open Networking in the Cloud) within the EVE-NG virtual environment. SONiC offers a modern, open-source network operating system that brings the power of cloud principles to the network.
 
-## 📋 Requirements
 
+## ✅ Requirements
 **Prerequisites:**    
 EVE-NG server  
 Dell Enterprise SONiC virtual switch image   
@@ -33,9 +33,9 @@ Dell Enterprise SONiC virtual switch image
 EVE-NG: EVE-COM-5.0.1-19  
 DES: Enterprise_SONiC_OS_4.1.1.img
 
-## 👏 Procedure
+## 📋 Procedure
 **Modifying Config File & Adding SONiC Image**  
-- Under the SRC folder open the "config.json" file and your EVE-NG server credentials 
+- Under the SRC folder open the "config.json" file and fill in your EVE-NG server credentials 
 - Change the filename and extension of your Dell Enterprise SONiC image from Enterprise_SONiC_OS_4.1.1.img to virtioa.qcow2 
 - Move the virtioa.qcow2 file to the SRC folder
   
